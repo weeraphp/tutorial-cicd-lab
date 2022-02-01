@@ -27,7 +27,7 @@ unitest:
 ## Steps NodeJS (with Jest)
 
 - [Checkout Code](steps.md#checkout-code)
-- [Setup Go](steps.md#setup-node)
+- [Setup Node](steps.md#setup-node)
 - [Install Dependencies](steps.md#install-node-dependencies)
 - [Unittest](steps.md#unit-test-with-node-jest)
 - [Upload Report](steps.md#upload-reports-node-jest)

@@ -74,6 +74,7 @@ steps:
 steps:
 - name: Unit test
   run: npm test
+  # for vuejs npm run test:unit
 ```
 
 
