@@ -58,15 +58,15 @@
 - Walkthtough GitHub Action
 - Create & Execute Component Workflows
 
-##  9. Continuous Integration
+##  9. [Continuous Integration](ci/Readme.md)
 
-- [Unittest](./ci/unittest-action.md)
-- [SAST (Static Application Security Testing)](./ci/sast.md)
+- Unittest
+- SAST (Static Application Security Testing)
 - Build (Arifact & Image)
 
-##  10. Continuous Deployment
+##  10. [Continuous Deployment](cd/Readme.md)
 
-- Deploy Application with Hem
+- Deploy Application
 - DAST (Dynamic Application Security Testing)
 - Business Test with Automate Testing
 - Review E2E Application & pipeline
