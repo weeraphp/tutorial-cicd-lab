@@ -3,7 +3,7 @@
 ##  1. Intoduction
 
 - Walkthrough DevSecOps Flow Overview
-- Azure Subscription & Access
+- [Azure Subscription](cloud-resources/subscription.md) & Access
 
 ##  2. Version Control
 
@@ -14,7 +14,7 @@
     - [name]-tutorial-frontend
 - Demo [Git Command](./github/git-command.md)
 
-##  3. Applications
+##  3. Application Design & Implementation
 
 - [Initialize Project](apps/init-project-tutorial.md)
 - Execute Unit test & Reports
@@ -35,15 +35,18 @@
 
 - Walkthrough Azure Cloud Resources & Create
     - [Create Resource Group](cloud-resources/create-resource-group.md)
-    - [Create Create Kubernetes Service](cloud-resources/create-aks.md)
+    - [Create App Service (Container)](cloud-resources/create-app-service-contaner.md)
+    - [Create App Service (Code)](cloud-resources/create-app-service-code.md)
+    - [Create Create Kubernetes Service (Optional)](cloud-resources/create-aks.md)
     - [Create Azure Container Registry](cloud-resources/create-acr.md)
     - [Create CosmosDB for MongoDB](cloud-resources/create-cosmos-mongodb.md)
+- Deploy Apps to Web App
 
 ##  6. Container Orchestration
 
 - Walkthrough Azure Kubernetes Service
-- Create Deployment Application with YAML files
-- Deploy Application stack on AKS
+- Demo Deployment Application with YAML files
+- Demo Application stack on AKS
 
 ##  7. Helm Chart
 
