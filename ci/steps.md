@@ -18,6 +18,17 @@ steps:
     go-version: '^1.17.6' # The Go version to download (if necessary) and use.
 ```
 
+## Setup Node
+
+```yaml
+steps:
+- name: Setup node
+  uses: actions/setup-node@v2
+  with:
+    node-version: '14'
+```
+
+
 ## Check Go Version
 
 ```yaml
@@ -38,6 +49,14 @@ steps:
     go get -u github.com/stretchr/testify
     go mod vendor
 ```
+## Install Node dependencies
+
+```yaml
+steps:
+- name: Install dependencies
+  run: npm install
+```
+
 
 ## Unit test with Go
 
@@ -49,7 +68,16 @@ steps:
     go tool cover -html coverage.out -o report.html
 ```
 
-## Upload Reports
+## Unit test with Node Jest
+
+```yaml
+steps:
+- name: Unit test
+  run: npm test
+```
+
+
+## Upload Reports Go Report
 
 ```yaml
 steps:
@@ -58,6 +86,17 @@ steps:
   with:
     name: Unit Test Results
     path: '${{ github.workspace }}/report.html'
+```
+
+## Upload Reports Node Report Jest
+
+```yaml
+steps:
+- name: Upload Reports
+  uses: actions/upload-artifact@v2
+  with:
+    name: Unit Test Results
+    path: '${{ github.workspace }}/coverage/lcov-report/*'
 ```
 
 

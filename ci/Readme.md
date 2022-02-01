@@ -12,11 +12,11 @@
 - [Common CI Workflows](common.md)
 - [Unit Test](unittest.md)
 - [SAST (Static Application Security Testing)](sast.md)
-- [Build (Arifact & Image)](build.md)
+- [Build (Arifact & Image)](build.md#build-container-job)
 
 ## CI Workflows (Deploy Code)
 
 - [Common CI Workflows](common.md)
 - [Unit Test](unittest.md)
 - [SAST (Static Application Security Testing)](sast.md)
-- [Repository Dispatch](build.md)
+- [Repository Dispatch](build.md#build-for-code-job)
