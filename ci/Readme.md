@@ -5,6 +5,7 @@
 
 - [Git & GitHub](../github/Readme.md)
 - [CI/CD GitHub Action](../actions/Readme.md)
+- [Azure Cloud Resources for CI/CD](../cloud-resources/Readme.md)
 
 
 ## CI Workflows (Deploy Container)

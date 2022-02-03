@@ -13,6 +13,12 @@
     - Name : app-[name]-tutorial-backend-dev-001
     - Publish : Docker Container
   - App Service Plan (New) : Default
+  - Docker
+    - Options : Single Container
+    - Image Source : Azure Container Registry
+    - Registry : acr[name]tutorial001
+    - Image : [name]-tutorial-[?]end
+    - Tag : ondev ```0.0.1-SNAPSHOT``` / tag 1.0.0
   - Review + create
 
 Create
