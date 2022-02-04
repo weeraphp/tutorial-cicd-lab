@@ -22,7 +22,7 @@ open terminal or cmd
 - switch subscription
   
   ```bash
-  az account set --subscription 1d00f364-f62c-4896-a77d-e24d36e7d9c8
+  az account set --subscription xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
   ```
   
 - create SP with SDK Tool

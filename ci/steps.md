@@ -191,3 +191,11 @@ steps:
     event-type: name-tutorial-backend-cd-dev
     client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
 ```
+
+## Set Env
+
+```yaml
+steps:
+- name: Set env
+      run: echo "IMAGE_TAG=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+```

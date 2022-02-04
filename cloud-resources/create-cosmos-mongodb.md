@@ -17,7 +17,7 @@
     - Resource Group : rg-[name]-tutorial-001
     - Location : East Asia
   
-    - Account name : cosmos-bokie-tutorial-001
+    - Account name : cosmos-[name]-tutorial-001
   - Backup Policy 
     - Backup storage redundancy : Locally-redundant backup storage
   - Review + create

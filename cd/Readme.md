@@ -7,8 +7,8 @@
 - [CI/CD GitHub Action](../actions/Readme.md)
 - [Continuous Integration](../ci/Readme.md)
 - [Create Service Principle Support SDK](create-az-sp-sdk.md)
+- [Join Azure AD in Resource group](join-azure-ad-in-resource-group.md)
 - [Azure Cloud Resources for CI/CD](../cloud-resources/Readme.md)
-
 
 
 
@@ -23,3 +23,7 @@
 
 
 ## CD Workflows App Service (Deploy Code)
+
+.
+.
+.

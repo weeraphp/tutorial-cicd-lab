@@ -14,7 +14,7 @@
     - [name]-tutorial-frontend
 - Demo [Git Command](./github/git-command.md)
 
-##  3. Application Design & Implementation
+##  3. Applications
 
 - [Initialize Project](apps/init-project-tutorial.md)
 - Execute Unit test & Reports
