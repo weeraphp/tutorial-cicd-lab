@@ -25,6 +25,10 @@ Create
 
 <img src="../images/83.png" alt="drawing" width="500"/>
 
+Select first image
+
+<img src="../images/110.png" alt="drawing" width="500"/>
+
 Deployment 
 
 <img src="../images/84.png" alt="drawing" width="500"/>

@@ -1,5 +1,11 @@
 # Tutorial CI/CD with GitHub Action Lab
 
+![img](images/ci.png)
+
+Application Stack
+
+![img](images/stack.svg)
+
 ##  1. Intoduction
 
 - Walkthrough DevSecOps Flow Overview
