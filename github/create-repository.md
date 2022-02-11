@@ -27,7 +27,7 @@ Create a new repository page
   - Add .gitignore (when you know project such as nodejs ignore node_module)
   - Choose a license
 - Create repository
-<img src="../images/72.JPG" alt="drawing" width="500"/>
+<img src="../images/72.jpg" alt="drawing" width="500"/>
 
 
 Overview Repository
